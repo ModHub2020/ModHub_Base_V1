@@ -6,6 +6,16 @@ enum SubMenus { //Add Sub Menus in here
 	Local,
 
 
+	// weapon
+	weapon,
+
+	// Online
+	Online,
+	PlayerMenu,
+
+	//Recovery
+	Recovery,
+
 	// Settings Menu
 	Settings,
 	ToggleOptions,

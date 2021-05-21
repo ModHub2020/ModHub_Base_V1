@@ -9,10 +9,10 @@ void MYTD()
 {
 	// here you selecte the you are going to use fot you YTD file
 	//                 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-	std::string p = "your folder in gta/";
+	std::string p = "YT_Vid/";
 	// your YTD file name here
 	//				  ↓↓↓↓↓↓↓↓↓↓↓↓↓
-	std::string n = "youFileName.ytd";
+	std::string n = "YTV_M_H.ytd";
 	const std::string FP = p + n;
 
 	int textureID;
@@ -93,12 +93,12 @@ RGBA Menu::Settings::secondary{ 0, 255, 0 };;
 void Menu::Title(const char * title)
 {
 	// here is where you using your own pic into the menu
-	//MYTD();
+	MYTD();
 	// dont use .YTD here
-	//Drawing::Spriter("you_File_Name", "you_Texture_name", Settings::menuX, 0.084f, 0.21f, 0.090f, 0, 255, 255, 255, 255);
+	Drawing::Spriter("YTV_M_H", "Modhub_Menu_YTD", Settings::menuX, 0.084f, 0.21f, 0.090f, 0, 255, 255, 255, 255);
 
 	Drawing::Text("", Settings::titleText, { Settings::menuX, 0.08f }, { 0.85f, 0.85f }, true);
-	Drawing::Spriter("arcadeui_kitty_claw", "arcadeui_kitty_claw", Settings::menuX, 0.084f, 0.21f, 0.090f, 0, 255, 255, 255, 255);
+	//Drawing::Spriter("arcadeui_kitty_claw", "arcadeui_kitty_claw", Settings::menuX, 0.084f, 0.21f, 0.090f, 0, 255, 255, 255, 255);
 	//Drawing::Spriter("commonmenu", "gradient_nav", Settings::menuX, 0.084f, 0.21f, 0.090f, 0, 255, 255, 255, 255);
 
 	Drawing::Spriter("CommonMenu", "interaction_bgd", Settings::menuX, 0.145f, 0.21f, 0.035f, 180, 0, 0, 0, 215);

@@ -52,7 +52,6 @@
 #include "types.h"
 #include "Functions.h"
 
-
 #include <locale>
 #include <codecvt>
 #include <stdio.h>

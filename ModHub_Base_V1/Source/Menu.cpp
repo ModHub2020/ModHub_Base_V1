@@ -23,7 +23,6 @@ void main()
 		// Local Options
 		Local_Option_toggle_Loop();
 
-
 		// Settings
 
 		if (MainFirstopen) {

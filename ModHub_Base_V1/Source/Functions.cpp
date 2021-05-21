@@ -27,8 +27,6 @@ void godmode(bool toggle)
 
 
 
-
-
 //Everything in here will be contiuously looped, when it is true here is an example
 //You want to do the bool by the void, easy enough right: test_bool ? test(true) : NULL; or testVoid(testBool);
 //If this is true we continuously loop the void, if its false then just do nothing
