@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 you can edit this YTD file you can add and remove pictures in it and rename it you can do all this with OpenIV 
 if you dont have OpenIV here is a link https://openiv.com/
 
@@ -7,4 +8,9 @@ you can edit this YTD file you can add and remove pictures in it and rename it y
 if you dont have OpenIV here is a link https://openiv.com/
 
 >>>>>>> 88e35578fd28536120881db990530a808eeaf1c8
+=======
+you can edit this YTD file you can add and remove pictures in it and rename it you can do all this with OpenIV 
+if you dont have OpenIV here is a link https://openiv.com/
+
+>>>>>>> 14822a74503d2825ab48530b17e94a02d52f91bb
 THX lol
